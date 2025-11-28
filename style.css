@@ -1,0 +1,141 @@
+body, html{
+    padding: 0;
+    margin: 0;
+}
+.img1{
+    position: relative;
+    background-image: url('images/developer.png');
+    min-height: 735px;
+    background-attachment: fixed;
+}
+.head1{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    transform: translate(-20%,-30%);
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 6.7ch;
+    line-height: 2ch;
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+.smalltxt{
+    font-size: 1ch;
+    font-weight: 200;
+}
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+.sect1{
+    background-color: black;
+    text-align: center;
+}
+.head2{
+    color: white;
+    padding: 30px;
+    font-family: 'poppins';
+    font-size: 4ch;
+    word-spacing: 0.4ch;
+}
+.bigtxt{
+    font-size: 4.5ch;
+}
+.services{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px;
+}
+.containers{
+    position: relative;
+    height: fit-content;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    width: 320px;
+    border-radius: 10px;
+    text-align: center;
+    outline: 2px solid rgba(166, 165, 165, 0.5);
+    box-shadow: 10px 10px 5px rgba(136, 136, 136, 0.642);
+    transition: transform .2s;
+}
+.containers:hover{
+    transform: scale(1.1);
+}
+.img2{
+    background-image: url('images/web.png');
+    height: 200px;
+    min-width: 320px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.img3{
+    background-image: url('images/mobile.png');
+    height: 200px;
+    width: 320px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.img4{
+    background-image: url('images/uiux.png');
+    height: 200px;
+    width: 320px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#serviceHead{
+    text-align: center;
+    color: black;
+    font-family: 'poppins';
+    font-size: 3ch;
+    margin-top: 3%;
+    font-weight: 400;
+}
+.serviceText{
+    font-family: 'Poppins';
+    font-size: 2.5ch;
+    font-weight: 300;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Poppins';
+}
+.contactMe{
+    background-color: brown;
+    text-align: center;
+    padding: 60px;
+    width: 50%;
+}
+.AboutMe{
+    background-color: rgb(1, 62, 9);
+    text-align: center;
+    padding: 60px;
+    width: 50%;
+}
+h2{
+    font-size:3ch;
+    font-weight: 400;
+}
+.footertext{
+    font-size: 1.7ch;
+    font-weight: 350;
+    text-align: left;
+    left: 20%;
+    transform: trnaslate(-20%);
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    font-family: 'Poppins';
+    font-weight: 200;
+    word-spacing: 2.7px;
+}
